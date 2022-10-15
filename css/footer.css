@@ -1,0 +1,21 @@
+footer {
+    background-color: rgb(125, 125, 125);
+    text-align: center;
+}
+
+.site-footer{
+    display: grid;
+    grid-template-columns: 20% 1% 15% 1% 15%;
+    justify-content: center;
+}
+
+.site-footer li{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: system-ui;
+}
+
+.copyright{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}

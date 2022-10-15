@@ -41,7 +41,7 @@ COMMON
 p {
     line-height: 1.7;
 }
-img,
+
 iframe {
     max-width: 100%;
 }
@@ -256,7 +256,7 @@ SINGLE / PAGE ARTICLE
     font-size: var(--font-sm);
     text-align: center;
 }
-.post-content img {
+.post-content {
     margin-bottom: .5rem;
     height: auto;
 }
@@ -485,55 +485,11 @@ MEDIUM SIZE
 
 /* HEADER */
 
-    header {
-        background-color: #666;
-    }
+    
 
-    .site-header {
-        height: 260px;
-        text-align: center;
-        padding-top: 2.5rem;
-        -webkit-clip-path: ellipse(80% 100% at 50% 0);
-        clip-path: ellipse(80% 100% at 50% 0);
-    }
-    .site-title {
-        margin-bottom: 2rem;
-    }
-    .site-logo {
-        height: 100px;
-    }
-    .site-description {
-        font-size: var(--font-md);
-    }
+    
 
-    /* Navigation */
-    .primary-navigation {
-        margin-bottom: 2rem;
-    }
-    .btn-menu {
-        display: none;
-    }
-    .menu-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        border-bottom: 1px solid var(--black);
-        color: #0d0e0e;
-        background: none;
-        position: static;
-        width: 100%;
-        padding: 0 0 1rem;
-        transition: none;
-    }
-    .menu-wrapper a:hover {
-        color: var(--white);
-    }
-
-    /* Archive */
-    .page-title {
-        font-size: var(--font-xl);
-        margin-bottom: 2rem;
-    }
+    
 
 /* MAIN */
     .home .post-list,

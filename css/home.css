@@ -1,0 +1,63 @@
+.main-contents{
+    text-align: center;
+}
+
+.background-logo{
+    width: 600px;
+    height: 600px;
+}
+
+.main-part1{
+    width: 90%;
+    height: 300px;
+    background-color:rgb(192, 192, 192);  
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 1%;
+
+}
+
+.main-part1 button{
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+}
+
+.main-part1 button:hover{
+    background-color: rgb(127, 127, 127);
+}
+
+.main-part1 button p{
+    font-family: system-ui;
+}
+
+.main-part2{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    gap: 10%
+}
+
+.main-part2-sub{
+    background-color:rgb(192, 192, 192);
+    padding: 1%;
+
+}
+
+.main-title{
+    font-family: system-ui;
+    font-size: 2em;
+}
+
+.sub-title{
+    font-family: system-ui;
+    font-size: 1.2em;
+    margin-top: 10px;
+}

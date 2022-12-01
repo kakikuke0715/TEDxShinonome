@@ -1,0 +1,40 @@
+.page-title{
+    font-family: system-ui;
+    font-size: 3em;
+    background-color:rgb(105, 105, 105);
+    height: 15vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title{
+    font-family: system-ui;
+    font-size: 2em;
+    width: 500px;
+    border-bottom: solid 2px #555;
+}
+
+.main-contents{
+    text-align: center;
+}
+
+.main-part1{
+    height: 60vh;
+    width:90%;
+    text-align: left;
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    gap:5%;
+    padding: 1%;
+}
+
+
+.main-part2{
+    width:90%;
+    text-align: left;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}

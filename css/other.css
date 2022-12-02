@@ -38,3 +38,56 @@
     padding-left: 1%;
     padding-bottom: 1%;
 }
+
+.main-part3{
+    text-align: left;
+    justify-content: center;
+    align-items: start;
+    gap:5%;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin-bottom: 3%;
+}
+
+.main-part3-sub{
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap:2%;
+    padding: 2%;
+}
+
+
+
+
+.main-part3-sub-conts1{
+    font-family: system-ui;
+    font-size: 1.3em;
+    width:50vh;
+    height: 8vh;
+    background-color: rgb(36, 36, 36);
+    color:white;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.main-part3-sub-conts1:hover{
+    background-color: rgb(127, 127, 127);
+}
+
+.main-part3-sub-conts2{
+    background-color: rgb(192, 192, 192);
+    text-align: left;
+    width:50vh;
+    height: 16vh;
+    display: grid;
+    /*justify-content: start;
+    align-items: center;
+    */
+    padding: 1%;
+}

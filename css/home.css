@@ -61,3 +61,15 @@
     font-size: 1.2em;
     margin-top: 10px;
 }
+
+.article{
+    margin-top: 10px;
+    display: flex;
+    gap:2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.article h5{    
+    font-weight: 900;
+}

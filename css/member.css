@@ -6,12 +6,12 @@
 }
 .item img {
     max-width: 100%;
-	height: auto;
-
-   
-    
+	height: 250px;    
 }
 .item{
     padding: 5%;
-    margin:auto auto;
+    margin:3% auto;
+    display: grid;
+    align-items: end;
+    gap:5%;    
 }

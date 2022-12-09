@@ -13,11 +13,21 @@
     text-align: right;
   }
 
-  .follow-me li {
+  .follow-me-li {
+    display: block !important;
     float: left;
     margin: 0 8px 8px 0;
     padding: 0;
   }
+
+  .follow-me-li-phone {
+    display: none ;
+    float: left;
+    margin: 0 0px 0px 0;
+    padding: 0;
+  }
+
+
   .follow-me li a::before {
     /* background-color: #eee; */
     -webkit-border-radius: 2px;
@@ -31,7 +41,7 @@
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
     text-align: center;
-    width: 25px; /* Button width */
+    width: 24px; /* Button width */
   }
   .follow-me li a:hover::before {
     color: #fff;
@@ -118,3 +128,9 @@
   .follow-me li a[href*="youtube.com"]:hover::before        { background-color: #cd201f; }
   .follow-me li a[href$="/feed"]:hover::before              { background-color: #ffa500; }
   .follow-me li a[href$="/subscribe"]:hover::before         { background-color: #363636; }
+
+  /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+  .follow-me-li { display: none !important; }
+  .follow-me-li-phone { display: block !important; }
+}

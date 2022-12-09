@@ -73,3 +73,23 @@
 .article h5{    
     font-weight: 900;
 }
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+    .background-logo{
+        width: 100%;
+        height: auto;
+    }
+
+    .main-part2{
+        width: 90%;
+        height: 500px;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: space-around;
+        gap: 10%
+    }
+
+}

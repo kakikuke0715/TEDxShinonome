@@ -2,7 +2,8 @@
     font-family: system-ui;
     font-size: 3em;
     background-color:rgb(105, 105, 105);
-    height: 15vh;
+    min-width: 100%;
+    min-height: 15vh;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -59,9 +60,6 @@
     padding: 2%;
 }
 
-
-
-
 .main-part3-sub-conts1{
     font-family: system-ui;
     font-size: 1.3em;
@@ -84,10 +82,43 @@
     background-color: rgb(192, 192, 192);
     text-align: left;
     width:50vh;
-    height: 16vh;
+    min-height: 16vh;
     display: grid;
     /*justify-content: start;
     align-items: center;
     */
     padding: 1%;
+}
+
+@media only screen and (max-width: 750px) {
+    .main-part1{
+        min-height: 80vh;
+        width:100%;
+        text-align: left;
+        display: grid;
+        justify-content: start;
+        align-items: start;
+        gap:5%;
+        padding: 1%;
+    }
+
+    .main-title{
+        font-family: system-ui;
+        font-size: 2em;
+        width: 300px;
+        border-bottom: solid 2px #555;
+    }
+
+    .main-part3{
+        min-height: 100vh;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap:5%;
+        padding: 1%;
+        display: grid;
+        grid-template-columns: 100%;
+        margin-bottom: 40%;
+    }
+
 }
